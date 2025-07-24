@@ -9,6 +9,7 @@ if cap.isOpened():
 
 cap.set(3, 640)
 cap.set(4, 480)
+# It doesn't effect to play the video
 
 while cap.isOpened():
     ret, frame = cap.read()

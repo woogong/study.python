@@ -19,7 +19,7 @@ else:
             break
 
         resized = cv.resize(frame, (width, height), interpolation=cv.INTER_AREA)
-        resized = cv.flip(resized, 1)
+        #resized = cv.flip(resized, 1)
         #gray = cv.cvtColor(resized, cv.COLOR_BGR2GRAY)
 
         out.write(resized)
